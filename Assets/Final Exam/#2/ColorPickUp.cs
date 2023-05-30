@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.WSA;
 
 /*
  * Final Exam #2
@@ -14,10 +16,22 @@ using UnityEngine;
  */
 
 
-public class ColorPickUp : MonoBehaviour
+public class ColorPickUp : PickUp
 {
-    public Sprite newCarColorSprite;
+    public SpriteRenderer newCarColorSprite;
+    
+
+    public override void Activate()
+    {
+         
+       
+    }
+
+
+
+
 
 
 
 }
+
